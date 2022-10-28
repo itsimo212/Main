@@ -1,8 +1,6 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,38 +11,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-   
+
 
 
 </head>
+
 <body class="">
     <header class="container header active" id="home">
         <div class="header-content">
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="img/hero.jpg" alt="">
+                    <img src="img/gamingcampusparis.png" alt="">
                 </div>
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Simo Chahbar.</span>
-                    A Gaming Campus student
+                    Navigate to <span>Blogs</span>
+
                 </h1>
                 <p>
-                    Currently on last year of a Management and Communication Bachelor degree.
+                    Powered by Gaming Campus
                 </p>
                 <div class="btn-con">
-                    <a href="" class="main-btn">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
+
                 </div>
             </div>
         </div>
     </header>
     <main>
-        
+
         <section class="container" id="blogs">
             <div class="blogs-content">
                 <div class="main-title">
@@ -52,77 +48,34 @@
                 </div>
                 <div class="blogs">
                     <div class="blog">
-                        <img src="img/port6.jpg" alt="">
+                        <img src="img/Moha.jpg" alt="">
                         <div class="blog-text">
                             <h4>
-                                How to Create Your Own Website
+                                <a href="Mohamed/index.php">Mohamed's Website</a>
                             </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+
                         </div>
                     </div>
                     <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
+                        <img src="img/nico.jpeg" alt="">
                         <div class="blog-text">
                             <h4>
-                                How to Become an Expert in Web Design
+                                <a href="Nico/index.html">Nico's Website</a>
                             </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+
                         </div>
                     </div>
                     <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
+                        <img src="img/lilian.jpg" alt="">
                         <div class="blog-text">
                             <h4>
-                                Become a Web Designer in 10 Days
+                                <a href="Lilian/index.php">Lilian's Website</a>
                             </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+
                         </div>
                     </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </section>
@@ -135,7 +88,7 @@
                     <div class="left-contact">
                         <h4>Contact me here</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             In, laborum numquam? Quam excepturi perspiciatis quas quasi.
                         </p>
                         <div class="contact-info">
@@ -203,7 +156,7 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action = "connect.php" method="post" class="contact-form">
+                        <form action="connect.php" method="post" class="contact-form">
                             <div class="input-control i-c-2">
                                 <input type="text" required placeholder="YOUR NAME" name="name">
                                 <input type="email" required placeholder="YOUR EMAIL" name="mail">
@@ -215,35 +168,36 @@
                                 <textarea name="text" required cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <button type="submit"  class="main-btn">
-                                    <span class="btn-text" style = "color:#454e56">Submit</span>
+                                <button type="submit" class="main-btn">
+                                    <span class="btn-text" style="color:#454e56">Submit</span>
                                     <span class="btn-icon"><i class="fas fa-download"></i></span>
                                 </button>
                             </div>
                         </form>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
     </main>
 
     <div class="controls">
-        <div class="control active-btn" data-id="home" >
+        <div class="control active-btn" data-id="home">
             <i class="fas fa-home"></i>
         </div>
-        
-      
+
+
         <div class="control" data-id="blogs">
             <i class="far fa-newspaper"></i>
         </div>
-        
+
     </div>
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
-    
-  
+
+
 </body>
+
 </html>

@@ -1,0 +1,4 @@
+email send : emailtestgrpa17@gmail.com
+email recipient : receveurmailtest@gmail.com
+
+password : Azerty-12
